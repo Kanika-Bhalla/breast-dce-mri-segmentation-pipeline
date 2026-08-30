@@ -46,7 +46,7 @@ export DCE_REPO="$PWD"
 ```
 
 Place authorized segmentation checkpoints in `Models/` because the upstream
-segmentation functions load them from that directory. See `models/README.md`.
+segmentation functions load them from that directory. See `Models/README.md`.
 
 ## SLURM submission
 
