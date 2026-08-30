@@ -1,0 +1,36 @@
+# Protected or patient-derived data
+data/
+private/
+outputs/
+logs/
+*.dcm
+*.nii
+*.nii.gz
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.npy
+*.npz
+*.xlsx
+*.xls
+*.docx
+*.csv
+
+# Model checkpoints and secrets
+*.pth
+*.pt
+*.ckpt
+*.env
+configs/stacked_cases.json
+configs/slice_rules.json
+
+# Python and job artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.stdout.txt
+*.stderr.txt
+slurm-*.out
+.DS_Store
